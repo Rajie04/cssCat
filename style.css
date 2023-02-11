@@ -65,3 +65,73 @@ body{
     border-right: 25px solid transparent;
     position: relative;
 }
+
+.eye-l, .eye-r{
+    background-color: #ffd3a5;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eye-l{
+    bottom: 75px;
+    left: 30px;
+}
+
+.eye-r{
+    bottom: 105px;
+    left: 90px;
+}
+
+.eyeball{
+    background-color: #262626;
+    /*background-color: #2d4159;*/
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.nose{
+    border-top: 8px solid #ffb48f;
+    height: 0;
+    width: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+
+}
+
+.n1, .n2{
+    background-color:  #ffb48f;
+    height: 8px;
+    width: 1px;
+    position: relative;
+}
+
+.n1{
+    transform: rotate(45deg);
+    right: 4px;
+    bottom: 1.5px;
+}
+
+.n2{
+    transform: rotate(-45deg);
+    bottom: 10px;
+    left: 3px
+}
+
+.body{
+    background-color: #272a2e;
+    height: 120px;
+    width: 130px;
+    left: 30px;
+    bottom: 5px;
+    position: relative;
+    border-radius: 0 65px 0 0;
+}
