@@ -1,12 +1,12 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #e7e2d5;
 }
 
 .container {
     height: 500px;
     width: 350px;
-    background-color: #e7e2d5;
     position: absolute;
     margin: auto;
     top: 0;
@@ -134,4 +134,43 @@ body{
     bottom: 5px;
     position: relative;
     border-radius: 0 65px 0 0;
+}
+
+.paw-l, .paw-r{
+    background-color: #272a2e;
+    height: 10px;
+    width: 22px;
+    position: relative;
+    top: 120px;
+    border-radius: 0 0px 10px 10px;
+}
+
+.paw-l{
+    top: 120px;
+}
+
+.paw-r{
+    top: 110px;
+    left: 50px;
+}
+
+.tail{
+    background-color: #272a2e;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    border-radius: 0 20px 20px 0;
+}
+
+.shadow{
+    background-color: rgba(8, 8, 8, 0.05);
+    height: 30px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    z-index: -1;
 }
